@@ -23,13 +23,13 @@
  * Reference - https://www.terraform.io/docs/providers/google/index.html
  *
  */
-/**
+
 provider "google" {
-  project = var.project_id
-  region  = var.region
+  project = steel-aileron-276210
+  region  = us-central1-a
   version = "~> 3.39.0"
 }
-*/
+
 
 /**
  * Task 4.1: Add random_id resource ("suffix")
